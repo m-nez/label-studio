@@ -16,12 +16,14 @@ This high-level architecture diagram outlines the main components of a Label Stu
 
 Label Studio runs on Python and uses rqworkers to perform additional tasks. Metadata and annotations are stored in a bundled version of PostgreSQL that functions as persistent storage. If you host Label Studio in the cloud, use [persistent storage in the cloud](persistent_storage.html) instead of MinIO.
 
+
 ## Before you install
 
 Before you deploy Label Studio Enterprise, prepare your environment. 
 
 1. Set up [persistent storage](persistent_storage.html).
 2. For Kubernetes deployments, configure [ingress](ingress_config.html).
+
 
 ## Install Label Studio Enterprise
 
@@ -33,11 +35,8 @@ Select the deployment scenario that best fits your labeling use case.
 | [Install using Kubernetes and Helm charts](install_enterprise_k8s.html) | Large-scale production-grade data labeling activities with thousands of annotators. |
 | [Install Label Studio Enterprise without public internet access](install_enterprise_airgapped.html) | If you use a proxy to access the internet from your Kubernetes cluster, or it is airgapped from the internet. |
 
-## More details
 
-- See [Secure Label Studio](security.html) for more details about security and hardening for Label Studio Enterprise. 
-- Instead of installing, you can also use [Label Studio Enterprise as a cloud offering](https://heartex.com/product). 
-
-<i class='ent'></i> 
-To install Label Studio Community Edition, see <a href="install.html">Install and Upgrade Label Studio</a>. This page is specific to the Enterprise version of Label Studio.
-
+!!! note
+    - Instead of installing, you can also use [Label Studio Enterprise as a cloud offering](https://heartex.com/product). 
+    - <i class='ent'></i> To install Label Studio Community Edition, see [Install and Upgrade Label Studio](install.html). This page is specific to the Enterprise version of Label Studio.
+    - For more information about security and hardening for Label Studio Enterprise, see [Secure Label Studio](security.html).
