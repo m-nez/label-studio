@@ -61,3 +61,5 @@ launchdarkly-server-sdk==7.3.0
 
 label-studio-converter==0.0.42.rc0
 label-studio-tools==0.0.0.dev14
+
+whitenoise==6.2.0
