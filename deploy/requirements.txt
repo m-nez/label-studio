@@ -20,7 +20,7 @@ google-resumable-media==0.5.1
 googleapis-common-protos==1.52.0
 grpc-google-iam-v1==0.12.3
 
-Django==3.2.13
+Django==3.2.14
 django_annoying==0.10.6
 django_debug_toolbar==3.2.1
 django_filter==2.4.0
@@ -58,8 +58,7 @@ boxing>=0.1.4
 redis>=4.2.0
 sentry-sdk>=1.1.0
 launchdarkly-server-sdk==7.3.0
+python-json-logger==2.0.4
 
-label-studio-converter==0.0.42.rc0
-label-studio-tools==0.0.0.dev14
-
+label-studio-converter==0.0.44
 whitenoise==6.2.0
